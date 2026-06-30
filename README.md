@@ -151,22 +151,6 @@ ollama pull nomic-embed-text
 cp .env.example .env
 ```
 
-Edit `.env`:
-
-```env
-OLLAMA_BASE_URL=http://localhost:11434
-LLM_MODEL=mistral
-EMBEDDING_MODEL=nomic-embed-text
-FAISS_INDEX_PATH=faiss_index/index.faiss
-FAISS_METADATA_PATH=faiss_index/metadata.pkl
-UPLOAD_FOLDER=uploads
-MAX_FILE_SIZE_MB=10
-CHUNK_SIZE=500
-CHUNK_OVERLAP=100
-TOP_K_RESULTS=5
-APP_TITLE=AI Resume Analyzer
-```
-
 ### 6. Run the app
 
 ```bash
