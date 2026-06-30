@@ -1,0 +1,11 @@
+streamlit
+ollama
+faiss-cpu
+pymupdf
+python-docx
+python-dotenv
+numpy
+pandas
+scikit-learn
+language-tool-python
+spacy
